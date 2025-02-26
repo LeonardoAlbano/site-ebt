@@ -38,7 +38,7 @@ const WelcomeSection = styled(Box)(({ theme }) => ({
   display: "flex",
   flexDirection: "column",
   justifyContent: "center",
-  marginTop: "-100px", // Creates overlap with header
+  marginTop: "-100px",
 }));
 
 const OrangeCircle = styled(Box)({

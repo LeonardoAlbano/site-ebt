@@ -64,7 +64,6 @@ export const PricingSection = () => {
         </Typography>
 
         <Box sx={{ display: "flex", gap: 3, flexWrap: "wrap" }}>
-          {/* Monthly Plan */}
           <Box sx={{ flex: 1, minWidth: 280 }}>
             <PricingCard sx={{ bgcolor: "#333333" }}>
               <Typography variant="h6" sx={{ color: "white", mb: 2 }}>
@@ -108,7 +107,6 @@ export const PricingSection = () => {
             </PricingCard>
           </Box>
 
-          {/* Annual Plan */}
           <Box sx={{ flex: 1, minWidth: 280 }}>
             <PricingCard
               sx={{ bgcolor: (theme) => theme.palette.primary.main }}
@@ -162,7 +160,6 @@ export const PricingSection = () => {
           </Box>
         </Box>
 
-        {/* Guarantee Card */}
         <GuaranteeCard>
           <Box sx={{ maxWidth: 600 }}>
             <Typography variant="h3" gutterBottom>

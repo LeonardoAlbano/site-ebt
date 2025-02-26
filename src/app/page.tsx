@@ -1,14 +1,14 @@
-import { FeaturesGrid } from "@/components/Features-grid";
+import { FeaturesGrid } from "@/components/Section/features-grid";
 import { Footer } from "@/components/Footer/Footer";
 import { Header } from "@/components/Header/Header";
-import { ProfessorsSection } from "@/components/ProfessorsSection";
-import { CertificateSection } from "@/components/Certificate-section";
-import { TestimonialsSection } from "@/components/testimonials-section";
-import { PricingSection } from "@/components/pricing-section";
-import { AboutSection } from "@/components/about-section";
-import { FaqSection } from "@/components/faq-section";
-import { MiniCoursesSection } from "@/components/mini-courses-section";
-import { BibotalkSection } from "@/components/bibotalk-section";
+import { ProfessorsSection } from "@/components/Section/professors-section";
+import { CertificateSection } from "@/components/Section/certificate-section";
+import { TestimonialsSection } from "@/components/Section/testimonials-section";
+import { PricingSection } from "@/components/Section/pricing-section";
+import { AboutSection } from "@/components/Section/about-section";
+import { FaqSection } from "@/components/Section/faq-section";
+import { MiniCoursesSection } from "@/components/Section/mini-courses-section";
+import { BibotalkSection } from "@/components/Section/bibotalk-section";
 
 export default function Home() {
   return (

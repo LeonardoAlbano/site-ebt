@@ -56,7 +56,6 @@ export const FaqSection = () => {
   return (
     <Container maxWidth="lg" sx={{ py: 8 }}>
       <Box sx={{ position: "relative" }}>
-        {/* Decorative curves */}
         <Box
           sx={{
             position: "absolute",

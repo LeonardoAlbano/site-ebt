@@ -4,7 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@mui/material";
 import theme from "../utils/theme";
 import Script from "next/script";
-import { WhatsAppButton } from "@/components/Whatsapp-button";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 
 export const metadata: Metadata = {
   title: "EBT",
